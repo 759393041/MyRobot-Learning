@@ -82,3 +82,18 @@
 
 ![image-20231007181822687](assets/image-20231007181822687.png)
 
+# python安装
+
+去 python.org安装
+
+![image-20231007191809843](assets/image-20231007191809843.png)
+
+# python解释器
+
+![image-20231007191951024](assets/image-20231007191951024.png)
+
+![image-20231007191956886](assets/image-20231007191956886.png)
+
+![image-20231007192050293](assets/image-20231007192050293.png)
+
+just in time：及时编译
