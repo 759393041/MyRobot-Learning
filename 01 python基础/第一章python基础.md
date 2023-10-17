@@ -86,13 +86,13 @@
 
 ![image-20231007181822687](assets/image-20231007181822687.png)
 
-# python安装
+## python安装
 
 去 python.org安装
 
 ![image-20231007191809843](assets/image-20231007191809843.png)
 
-# python解释器
+## python解释器
 
 ![image-20231007191951024](assets/image-20231007191951024.png)
 
@@ -106,8 +106,44 @@ just in time：及时编译
 
 ![image-20231007192204350](assets/image-20231007192204350.png)
 
-# 集成开发环境
+## 集成开发环境pyCharm
 
 ![image-20231017164155989](assets/image-20231017164155989.png)
 
 Vs就是一种IDE 就是开发工具
+
+下载地址：
+
+[Download PyCharm: Python IDE for Professional Developers by JetBrains](https://www.jetbrains.com/pycharm/download/?section=windows)
+
+# 注释1.1.3.1
+
+就是对代码解释说明
+
+![image-20231017180457333](assets/image-20231017180457333.png)
+
+## 单行注释 用#
+
+#
+
+## 多行注释用‘’‘
+
+三个单引号‘’‘
+
+![image-20231017180644195](assets/image-20231017180644195.png)
+
+三个双引号”“”也行
+
+ctrl+/快捷键
+
+python对格式要求特别严格 有缩进错误
+
+#### 注释里的Todo
+
+注释里todo 没有做的事
+
+![image-20231017201519652](assets/image-20231017201519652.png)
+
+![image-20231017201509126](assets/image-20231017201509126.png)
+
+# 变量1.1.3.2
