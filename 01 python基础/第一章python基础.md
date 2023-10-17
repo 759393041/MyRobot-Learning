@@ -2,6 +2,10 @@
 
 # 计算机硬件组成
 
+[x86 x64 arm64的区别 - 赵青青 - 博客园 (cnblogs.com)](https://www.cnblogs.com/zhaoqingqing/p/13145115.html)
+
+
+
 计算机冯诺依曼体系结构：由美籍匈牙利科学家**冯·诺依曼**提出
 
 ![image-20231007174650805](assets/image-20231007174650805.png)
