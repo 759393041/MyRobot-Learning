@@ -375,3 +375,56 @@ print('*'*50)
 ## 逻辑运算符
 
 ![image-20231018171702189](assets/image-20231018171702189.png)
+
+## 运算符优先级
+
+![image-20231018171748068](assets/image-20231018171748068.png)
+
+括号解决一切运算符问题
+
+# if语句1.1.4.1
+
+```python
+if name == 'XQC':
+    print("Noob")
+```
+
+![image-20231018172412186](assets/image-20231018172412186.png)
+
+## 石头剪刀布小游戏
+
+```python
+# 随机数库
+import random
+
+peo = input("请输入剪刀石头布：")
+com = random.randint(0,2)
+if  peo == '剪刀':
+    peo_num = 0
+elif peo == '石头':
+    peo_num = 1
+elif peo == '布':
+    peo_num = 2
+if peo_num  < com:
+    if peo_num == 0 and com == 2:
+        print(peo_num)
+        print(com)
+        print("peo WIN")
+    else:
+        print(peo_num)
+        print(com)
+        print("com WIN")
+elif peo_num > com:
+    if com == 0 and peo_num == 2:
+        print(peo_num)
+        print(com)
+        print("com WIN")
+    else:
+        print(peo_num)
+        print(com)
+        print("peo WIN")
+else:
+    print(peo_num)
+    print(com)
+    print('equal')
+```

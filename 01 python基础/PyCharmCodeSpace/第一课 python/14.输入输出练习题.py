@@ -36,7 +36,7 @@
 电话:电话
 邮箱: 邮箱
 """
-print('*'*50)
+print('*' * 50)
 name = input("name,pls:")
 company = input(" company name pls:")
 job = input("job pls:")
@@ -48,4 +48,6 @@ print(name)
 print(job)
 print(tel)
 print(email)
-print('*'*50)
+print('*' * 50)
+if name == 'XQC':
+    print("Noob")
