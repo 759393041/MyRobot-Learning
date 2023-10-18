@@ -3,7 +3,11 @@
 """
 sum = 0
 index = 0
-while index < 101:
+# while index < 101:
+#     sum += index
+#     index += 1
+# print(sum)
+for index in range(101):
     sum += index
     index += 1
 print(sum)
