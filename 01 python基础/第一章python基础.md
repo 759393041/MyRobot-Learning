@@ -447,3 +447,47 @@ while index < 101:
 print(sum)
 ```
 
+# break和continue 1.1.5.4
+
+![image-20231018180925742](assets/image-20231018180925742.png)
+
+# for 1.1.5.6
+
+![image-20231018181004299](assets/image-20231018181004299.png)
+
+![image-20231018181009148](assets/image-20231018181009148.png)
+
+```python
+"""
+计算 0 ~ 100 之间所有数字的累计求和结果0+1 +2+3+4+..+100
+"""
+sum = 0
+index = 0
+# while index < 101:
+#     sum += index
+#     index += 1
+# print(sum)
+for index in range(101):
+    sum += index
+    index += 1
+print(sum)
+```
+
+![image-20231018181412222](assets/image-20231018181412222.png)
+
+[Python For Loops (w3schools.com)](https://www.w3schools.com/python/python_for_loops.asp)
+
+# range 1.1.5.7
+
+区间
+
+![image-20231018181602456](assets/image-20231018181602456.png)
+
+# 循环结合1.1.5.9
+
+### FOR else
+
+![image-20231018181749678](assets/image-20231018181749678.png)
+
+
+
