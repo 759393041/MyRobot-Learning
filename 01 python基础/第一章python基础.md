@@ -333,3 +333,45 @@ Apple_TotalWeight = float(Apple_TotalWeight)
 Payment = Apple_SigPrice * Apple_TotalWeight
 print(Payment)
 ```
+
+![image-20231018170746699](assets/image-20231018170746699.png)
+
+```python
+"""
+3.个人名片需求:
+在控制台依次提示用户输入: 姓名、公司、职位、电话、邮箱
+按照以下格式输出:
+公司名称
+姓名
+职位
+电话:电话
+邮箱: 邮箱
+"""
+print('*'*50)
+name = input("name,pls:")
+company = input(" company name pls:")
+job = input("job pls:")
+tel = input("tel num pls:")
+email = input("email num pls:")
+
+print(company)
+print(name)
+print(job)
+print(tel)
+print(email)
+print('*'*50)
+```
+
+# 运算符1.1.3.7
+
+## 赋值运算符
+
+![image-20231018171450267](assets/image-20231018171450267.png)
+
+## 比较运算符
+
+![image-20231018171655752](assets/image-20231018171655752.png)
+
+## 逻辑运算符
+
+![image-20231018171702189](assets/image-20231018171702189.png)
