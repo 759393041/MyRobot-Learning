@@ -22,3 +22,17 @@ for count in MyList:
 
 print(MyList[1])
 ```
+
+## 增
+
+![image-20231028110134692](assets/image-20231028110134692.png)
+
+## 删
+
+![image-20231028110208996](assets/image-20231028110208996.png)
+
+## 查
+
+
+
+## 序(排序)
