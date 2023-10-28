@@ -53,3 +53,43 @@ print(MyList[1])
 
 ![image-20231028145634298](assets/image-20231028145634298.png)
 
+如果元组的元素只有一个，是不会带小括号的
+
+```python
+"""
+元组是用()
+"""
+t = ('apex', "csgo")
+print(t)
+"""
+如果元组内只有一个元素，print是不带括号的
+"""
+t = ('valorant')
+print(t)
+print(type(t))
+##运行结果
+#valorant
+#<class 'str'>
+```
+
+原因就是他的类型变了
+
+```python
+如果元组内只有一个元素，print是不带括号的
+"""
+t = ('valorant')
+print(t)
+print(type(t))
+#如果加上一个逗号
+t = (19,)
+print(t)
+print(type(t))
+######运行结果：
+"""
+valorant
+<class 'str'>
+(19,)
+#他就又变成了tuple类型而不是int
+<class 'tuple'>
+"""
+```
