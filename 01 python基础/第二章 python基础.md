@@ -14,3 +14,11 @@ python中的数据类型回顾：
 
 ![image-20231028103710152](assets/image-20231028103710152.png)
 
+```python
+MyList = ['XQC', 35, 'streamer']
+print(MyList)
+for count in MyList:
+    print(count)
+
+print(MyList[1])
+```
