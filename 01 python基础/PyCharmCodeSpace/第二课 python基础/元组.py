@@ -12,3 +12,9 @@ print(type(t))
 t = (19,)
 print(t)
 print(type(t))
+
+a=10
+b=20
+tmp= a,b
+b,a=tmp
+print(a,b)
