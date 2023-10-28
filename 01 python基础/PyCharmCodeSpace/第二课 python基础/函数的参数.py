@@ -1,4 +1,8 @@
-def helloworld():
-    print("helloworld")
+def myprint(aa):
+    print(aa)
+    aa ="i have changed"
 
-helloworld()
+
+mystr = input()
+myprint(mystr)
+print(mystr)

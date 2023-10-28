@@ -138,3 +138,40 @@ print(a,b)
 ```
 
 # 函数的参数1.2.2.2
+
+```python
+def helloworld():
+    print("helloworld")
+
+helloworld()
+```
+
+![image-20231028165235271](assets/image-20231028165235271.png)
+
+```python
+def myprint(aa):
+    print(aa)
+
+
+aa = input()
+myprint(aa)
+```
+
+## 形参和实参问题
+
+```python
+def myprint(aa):
+    print(aa)
+    aa ="i have changed"#内部修改外部指针
+
+
+mystr = input()
+myprint(mystr)
+print(mystr)
+```
+
+![image-20231028172444754](assets/image-20231028172444754.png)
+
+显然失败了
+
+## 函数的返回值
