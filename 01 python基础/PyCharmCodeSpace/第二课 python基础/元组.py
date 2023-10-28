@@ -18,3 +18,10 @@ b=20
 tmp= a,b
 b,a=tmp
 print(a,b)
+
+t = "张三", 26
+print("姓名：%s, 年龄:%d"%t)
+# l =[1,2,3]
+# l=tuple(l)
+# l[1]=4
+# print(l)
