@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="fish.h" />
+    <ClInclude Include="uunique_ptr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fish.cpp" />
+    <ClCompile Include="uunique_ptr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

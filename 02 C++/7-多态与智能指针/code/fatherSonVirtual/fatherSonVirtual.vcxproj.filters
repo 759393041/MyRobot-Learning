@@ -18,9 +18,15 @@
     <ClInclude Include="fish.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="uunique_ptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uunique_ptr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

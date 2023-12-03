@@ -1,9 +1,9 @@
-#pragma once
-class fish
-{
-};
-class kedou final:public fish
-{
-
-};
-
+//#pragma once
+//class fish
+//{
+//};
+//class kedou final:public fish
+//{
+//
+//};
+//
