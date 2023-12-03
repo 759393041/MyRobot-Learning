@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="fish.h" />
+    <ClInclude Include="ShareDDD_PTR.h" />
     <ClInclude Include="uunique_ptr.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fish.cpp" />
+    <ClCompile Include="ShareDDD_PTR.cpp" />
     <ClCompile Include="uunique_ptr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
