@@ -140,12 +140,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="boolalpha_test.h" />
+    <ClInclude Include="FileIO.h" />
     <ClInclude Include="noskipws_test.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="boolalpha_test.cpp" />
+    <ClCompile Include="FileIO.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="noskipws_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\myfile.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

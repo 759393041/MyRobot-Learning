@@ -21,6 +21,9 @@
     <ClInclude Include="noskipws_test.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="boolalpha_test.cpp">
@@ -32,5 +35,13 @@
     <ClCompile Include="noskipws_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\myfile.txt">
+      <Filter>源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
