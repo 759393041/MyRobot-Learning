@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="initialize_var.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="testTemplateStatic.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="initialize_var.h" />
     <ClInclude Include="testTemplateStatic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

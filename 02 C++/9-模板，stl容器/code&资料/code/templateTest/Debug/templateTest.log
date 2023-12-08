@@ -1,5 +1,2 @@
 ﻿  main.cpp
-  testTemplateStatic.cpp
-  正在生成代码...
-main.obj : error LNK2019: 无法解析的外部符号 "public: static double __cdecl testTemplateStatic::s_add<double,int>(double,int)" (??$s_add@NH@testTemplateStatic@@SANNH@Z)，函数 _main 中引用了该符号
-D:\仓库\github\MyRobot-Learning\02 C++\9-模板，stl容器\code&资料\code\templateTest\Debug\templateTest.exe : fatal error LNK1120: 1 个无法解析的外部命令
+  templateTest.vcxproj -> D:\仓库\github\MyRobot-Learning\02 C++\9-模板，stl容器\code&资料\code\templateTest\Debug\templateTest.exe

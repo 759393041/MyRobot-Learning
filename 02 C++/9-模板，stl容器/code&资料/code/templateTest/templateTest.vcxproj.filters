@@ -21,9 +21,15 @@
     <ClCompile Include="testTemplateStatic.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="initialize_var.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="testTemplateStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="initialize_var.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

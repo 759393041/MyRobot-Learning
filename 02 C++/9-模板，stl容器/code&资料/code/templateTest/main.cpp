@@ -1,5 +1,6 @@
 #include<iostream>
 #include"testTemplateStatic.h"
+#include"initialize_var.h"
 using namespace std;
 
 
@@ -15,5 +16,7 @@ int main()
 	testTemplateStatic aa;
 	cout << aa.add(1, 212) << endl;
 	cout << testTemplateStatic::s_add(2.1, 3) << endl;
-
+	initializer_list<int> number = { 1,3,4,5,6 };
+	initialize_var a;
+	a.addI(number);
 }
