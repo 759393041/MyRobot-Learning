@@ -1,25 +1,31 @@
 #include<iostream>
 #include<iterator>
 #include<vector>
+#include<functional>
 using namespace std;
 
-int main()
+void test()
 {
-
-	vector<int> rr = {10,20,30,40,50,60};
+	vector<int> rr = { 10,20,30,40,50,60 };
 	vector<int>::iterator ite = rr.begin();
 
-	while (ite!=rr.end())
+	while (ite != rr.end())
 	{
-		if (*ite<60)
+		if (*ite < 60)
 		{
-			ite=rr.erase(ite);
+			ite = rr.erase(ite);
 		}
 		else
 		{
 			ite++;
 		}
 	}
+}
+
+int main()
+{
+	function<void()> test_str = test;
+	test_str();
 
 
 
