@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+
 	vector<int> rr = {10,20,30,40,50,60};
 	vector<int>::iterator ite = rr.begin();
 
@@ -19,6 +20,7 @@ int main()
 			ite++;
 		}
 	}
+
 
 
 
