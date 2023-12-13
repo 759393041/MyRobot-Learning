@@ -2,6 +2,7 @@
 #include<iterator>
 #include<vector>
 #include<functional>
+#include"static_test.h"
 using namespace std;
 
 void test()
@@ -30,5 +31,6 @@ int main()
 
 	cout << f2(3, 4) << endl;
 
-
+	static_test aa;
+	cout << aa.mul(3, 2) << endl;
 }
