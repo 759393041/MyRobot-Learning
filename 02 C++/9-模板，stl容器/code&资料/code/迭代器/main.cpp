@@ -31,6 +31,15 @@ int main()
 
 	cout << f2(3, 4) << endl;
 
-	static_test aa;
-	cout << aa.mul(3, 2) << endl;
+	static_test aa; 
+	cout << aa.mul(3, 2) << endl; 
+	
+	//无论如何一定要加上&
+//普通函数的手段一定要用对象 静态可以不用
+
+	function<int(int,int)> crar1 = &static_test::mul;
+	cout << crar1(5, 6) << endl;
+
+	function<int(static_test,int, int)> crar2 = &static_test::add;
+	cout << crar2(aa,7, 8) << endl;
 }
