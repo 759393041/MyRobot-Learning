@@ -26,9 +26,9 @@ int main()
 {
 	function<void()> test_str = test;
 	test_str();
+	function <int(int, int)>f2 = [](int a, int b) {return a + b; };
 
-
-
+	cout << f2(3, 4) << endl;
 
 
 }
