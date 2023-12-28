@@ -20,6 +20,6 @@ int main()
 	thread t1(i);
 
 	t1.join();
-
+	 
 	return 0;
 }
