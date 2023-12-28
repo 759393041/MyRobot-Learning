@@ -2,6 +2,8 @@
 #include<string>
 #include<iostream>
 #include<windows.h>
+#include<thread>
+
 using namespace std;
 
 class introduce
@@ -14,8 +16,8 @@ public:
 	{
 		for (int i = 0; i < 10; i++)
 		{
-			cout << "姓名:" << this->s_name << "		" << "年龄:" << this->s_age << endl;
-			Sleep(1000);
+			cout <<"id:"<<this_thread::get_id()<< "姓名:" << this->s_name << "		" << "年龄:" << this->s_age << endl;
+			this_thread::sleep_for(chrono::seconds(1));
 		}
 	}
 public:
