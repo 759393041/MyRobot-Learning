@@ -1,6 +1,6 @@
 #include "Father.h"
 #include"Son.h"
-
+#include<mutex>
 
 void Father::FSaveM()
 {
@@ -8,22 +8,8 @@ void Father::FSaveM()
 	{
 
 		bank->SaveMoney("¸¸Ç×", 100);
-		Sleep(100);
+		Sleep(1000);
 
-	}
-
-}
-void Son::SDrawMoney()
-{
-	while (true)
-	{
-
-		if (this->bank->money > 200)
-		{
-			this->bank->DrawMoney("¶ù×Ó", 200);
-		}
-
-		Sleep(100);
 	}
 
 }

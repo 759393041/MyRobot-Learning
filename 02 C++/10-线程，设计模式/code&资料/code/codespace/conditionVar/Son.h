@@ -3,6 +3,7 @@
 #include"Bank.h"
 class Son
 {
+
 public:
 	Bank* bank = nullptr;
 	Son(Bank* bank) :bank(bank)
@@ -11,5 +12,6 @@ public:
 	}
 public:
 	void SDrawMoney();
+
 };
 

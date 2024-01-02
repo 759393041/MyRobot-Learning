@@ -3,6 +3,7 @@
 #include"Bank.h"
 #include<mutex>
 using namespace std;
+
 class Father
 {
 
@@ -18,6 +19,7 @@ public:
 	}
 public:
 	void FSaveM();
-
+private:
+	mutex m1;
 };
 
