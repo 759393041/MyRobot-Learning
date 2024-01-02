@@ -14,15 +14,17 @@ void robot::catch_LeftMove(workstation* ws)
 		{
 			return;
 		}
+		m.lock();
 		if (!ws->box_amount.empty())
 		{
-			m.lock();
+
 			ws->box_amount.pop();
 			cout << "LeftCatch<-:" << ws->box_amount.size() << endl;
-			m.unlock();
-			this_thread::sleep_for(chrono::seconds(1));
+
 
 		}
+		m.unlock();
+			this_thread::sleep_for(chrono::seconds(1));
 
 
 	}
@@ -38,14 +40,14 @@ void robot::catch_RightMove(workstation* ws)
 		{
 			return;
 		}
+			m.lock();
 		if (!ws->box_amount.empty())
 		{
-			m.lock();
 			ws->box_amount.pop();
 			cout << "RightCatch:->" << ws->box_amount.size() << endl;
+		}
 			m.unlock();
 			this_thread::sleep_for(chrono::seconds(1));
-		}
 	}
 
 }
